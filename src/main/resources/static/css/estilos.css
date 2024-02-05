@@ -8,7 +8,42 @@
     font-size: 20px;
 }
 
-p {
+/*p {
     background-color: 
     peachpuff
+}*/
+
+a:link {
+    
+    color: gold;
+}
+
+a:visited {
+    
+    color: chartreuse;
+    background-color: beige
+}
+
+a:hover{
+    
+    color: red;
+    background-color: blue;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+a:active{
+    
+    background-color: red;
+    color: blue;
+}
+
+p:nth-child(even){
+    
+    background-color: red;
+}
+
+p:nth-child(odd){
+    
+    background-color: aquamarine;
 }
